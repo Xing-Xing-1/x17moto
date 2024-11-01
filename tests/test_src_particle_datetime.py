@@ -1,7 +1,7 @@
-from x17.moto.particle.date_time import date_time
-from x17.moto.particle.constant import TIMEZONE_TABLE
-from datetime import datetime, date, time
-import pytz
+from x17.moto.particle.date_time import date_time # type: ignore
+from x17.moto.particle.constant import TIMEZONE_TABLE # type: ignore 
+from datetime import datetime
+import pytz  # type: ignore
 
 def test_class():
 	assert date_time.TIME_ZONE == pytz.timezone("Australia/Sydney")

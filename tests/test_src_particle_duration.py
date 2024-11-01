@@ -1,6 +1,5 @@
-from x17.moto.particle.constant import TIME_UNIT_TABLE
-from x17.moto.particle.duration import duration
-import pytz
+from x17.moto.particle.constant import TIME_UNIT_TABLE # type: ignore
+from x17.moto.particle.duration import duration # type: ignore
 
 def test_class():
 	assert True == True

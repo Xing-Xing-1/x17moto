@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from x17.moto.particle.constant import (
+from x17.moto.particle.constant import ( # type: ignore
 	TIME_UNIT_TABLE,
 	TIMEZONE_TABLE,
 )
@@ -10,7 +10,7 @@ from datetime import (
 	date,
 	time,
 )
-import pytz
+import pytz # type: ignore
 
 
 class date_time():

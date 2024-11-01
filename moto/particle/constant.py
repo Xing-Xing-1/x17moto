@@ -1,5 +1,5 @@
 from datetime import datetime
-import pytz
+import pytz # type: ignore
 
 TIME_UNIT_TABLE = {
     "second": 1,

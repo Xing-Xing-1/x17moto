@@ -1,4 +1,4 @@
-from x17.moto.particle.constant import (
+from x17.moto.particle.constant import ( # type: ignore
 	TIME_UNIT_TABLE,
 )
 
