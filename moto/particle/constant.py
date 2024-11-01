@@ -2,13 +2,13 @@ from datetime import datetime
 import pytz
 
 TIME_UNIT_TABLE = {
-    "seconds": 1,
-    "minutes": 60,
-    "hours": 3600,
-    "days": 86400,
-    "weeks": 604800,
-    "months": 2592000,
-    "years": 31536000,
+    "second": 1,
+    "minute": 60,
+    "hour": 3600,
+    "day": 86400,
+    "week": 604800,
+    "month": 2592000,
+    "year": 31536000,
 }
 
 TIMEZONE_TABLE = {
